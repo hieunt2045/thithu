@@ -1,0 +1,78 @@
+body{
+    padding: 0px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tong{
+    width: 1200px;
+    margin: auto;
+}
+.menu{
+    height: 100px;
+    background-color: orangered;
+}
+form{
+    float: right;
+    padding-top: 30px;
+}
+.tk{
+    background-color: rgb(37, 37, 88);
+    color: white;
+}
+.banner img{
+    float: right;
+    width: 360px;
+    margin-top: -50px;
+    height: 580px;
+}
+.menu1{
+    height: 50px;
+    background-color: blue;
+    margin-top: 5px;
+    text-align: center;
+}
+.menu1 a{
+    color: #fff;
+    text-decoration: none;
+    padding: 1%;
+    position: relative;
+    line-height: 50px;
+}
+.new1{
+    width: 380px;
+    padding-left: 10px;
+    display: inline-block;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+h1{
+    font-size: 20px;
+    color: orange;
+}
+footer{
+    text-align: center;
+    height: 300px;
+}
+.lg{
+    border: 1px solid black;
+}
+  a:hover {
+    color: #cdcdcd;
+    transition: 0.5s all ease;
+}
+a::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -5px;
+    left: 0;
+    background-color: #a1ed08;
+    transform-origin: bottom right;
+    transition: transform 0.5s ease-out;
+  }
+  a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
